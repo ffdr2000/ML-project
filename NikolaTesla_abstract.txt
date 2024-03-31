@@ -1,0 +1,7 @@
+The design set was separated from the test set with an hold-out procedure (80% + 20%).
+The model for the CUP was selected using grid search with 5-fold cross-validation approach repeated 5 times on the design set.
+The best model with the lowest MEE score on the VL set was SVR from Scikit-learn,
+with sigmoid kernel, C=5*10^4, beta_0=0.2, beta_1=-4, epsilon=0.1.
+The MEE score of the model on the test set is MEE=0.49.
+
+ 
